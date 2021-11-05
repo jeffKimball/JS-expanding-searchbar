@@ -8,7 +8,7 @@ body {
   align-items: center;
   height: 50vh;
   margin: 0;
-  background-color: lightskyblue;
+  background-color: #60b8ec;
 }
 
 .search {
@@ -27,6 +27,10 @@ body {
   border-radius: 5px 0 0 5px;
 }
 
+.input::placeholder {
+  color: lightskyblue;
+}
+
 .btn {
   background-color: #fff;
   border: 0;
@@ -39,6 +43,10 @@ body {
   width: 50px;
   transition: transform 0.3s ease;
   border-radius: 0 5px 5px 0;
+}
+
+.fa-search {
+  color: #3aa6e6;
 }
 
 .btn:focus,
